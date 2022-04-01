@@ -3,8 +3,8 @@ CC = gcc
 
 #compiler flags
 #-g  adds debugging information to the executable file
-#-Wa;; turns on most, but not all, compiler warnings
-CFLAGS =  -g -Wall
+#-Wall turns on most, but not all, compiler warnings
+CFLAGS = -g -Wall
 
 #build target
 TARGET = usb_r
